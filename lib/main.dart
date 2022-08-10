@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(Text(
+void main() => runApp(
+    Text(
       'Textando meu projetim',
       textDirection: TextDirection.ltr,
-    ));
+    )
+    Text('Segundo textim', textDirection: TextDirection.ltr,)
+  );
