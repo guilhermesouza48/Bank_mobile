@@ -21,6 +21,7 @@ void main() => runApp(
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
             child: Icon(Icons.add),
+            backgroundColor: Colors.red,
           ),
         ),
       ),
