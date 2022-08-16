@@ -4,13 +4,13 @@ void main() => runApp(
       MaterialApp(
         //Header
         home: Scaffold(
+          body: Text('Teste'),
           appBar: AppBar(
             title: Text('HOME'),
           ),
-          floatingActionButton: FloatingActionButton(
-            onPressed: () {},
-            child: Icon(Icons.add)
-          ),
+          // button add
+          floatingActionButton:
+              FloatingActionButton(onPressed: () {}, child: Icon(Icons.add)),
         ),
       ),
     );
