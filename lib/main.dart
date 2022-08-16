@@ -12,7 +12,7 @@ void main() => runApp(
           // Main
           body: Card(
             child: ListTile(
-              leading: Icon(Icons.circle),
+              leading: Icon(Icons.monetization_on),
               title: Text('Transferência'),
               subtitle: Text('Área de transferência de dinheiro.'),
             ),
