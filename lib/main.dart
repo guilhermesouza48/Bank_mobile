@@ -7,6 +7,7 @@ void main() => runApp(
           //Header
           appBar: AppBar(
             title: Text('HOME'),
+            backgroundColor: Colors.red,
           ),
           // Main
           body: Card(child: Text('Teste')),
