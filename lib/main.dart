@@ -31,27 +31,28 @@ class ListaTransf extends StatelessWidget {
       children: [
         // COLUNAS
         ItemTransf(),
+        ItemTransf(),
       ],
     );
   }
 }
 
-class ItemTransf extends StatelessWidget{
+class ItemTransf extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-          child: ListTile(
-            leading: Icon(Icons.monetization_on),
-            title: Text('Conta'),
-            subtitle: Text('number'),
-          ),
-        );
-        Card(
-          child: ListTile(
-            leading: Icon(Icons.monetization_on),
-            title: Text('conta'),
-            subtitle: Text('number2'),
-          ),
-        );
+      child: ListTile(
+        leading: Icon(Icons.monetization_on),
+        title: Text('Conta'),
+        subtitle: Text('number'),
+      ),
+    );
+    Card(
+      child: ListTile(
+        leading: Icon(Icons.monetization_on),
+        title: Text('conta'),
+        subtitle: Text('number2'),
+      ),
+    );
   }
 }
