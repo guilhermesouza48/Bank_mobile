@@ -10,12 +10,23 @@ void main() => runApp(
             backgroundColor: Colors.red,
           ),
           // Main
-          body: Card(
-            child: ListTile(
-              leading: Icon(Icons.monetization_on),
-              title: Text('Transferência'),
-              subtitle: Text('Área de transferência de dinheiro.'),
-            ),
+          body: Column(
+            children: [
+              Card(
+                child: ListTile(
+                  leading: Icon(Icons.monetization_on),
+                  title: Text('Transferência'),
+                  subtitle: Text('Área de transferência de dinheiro.'),
+                ),
+              ),
+              Card(
+                child: ListTile(
+                  leading: Icon(Icons.monetization_on),
+                  title: Text('Transferência'),
+                  subtitle: Text('Área de transferência de dinheiro.'),
+                ),
+              ),
+            ],
           ),
           // button add
           floatingActionButton: FloatingActionButton(
