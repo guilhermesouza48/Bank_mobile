@@ -30,21 +30,28 @@ class ListaTransf extends StatelessWidget {
       // CRIAR COLUNAS DE TEXTOS
       children: [
         // COLUNAS
-        Card(
+        ItemTransf(),
+      ],
+    );
+  }
+}
+
+class ItemTransf extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Card(
           child: ListTile(
             leading: Icon(Icons.monetization_on),
             title: Text('Conta'),
             subtitle: Text('number'),
           ),
-        ),
+        );
         Card(
           child: ListTile(
             leading: Icon(Icons.monetization_on),
             title: Text('conta'),
             subtitle: Text('number2'),
           ),
-        ),
-      ],
-    );
+        );
   }
 }
