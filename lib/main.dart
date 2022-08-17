@@ -40,7 +40,7 @@ class ListaTransf extends StatelessWidget {
         Card(
           child: ListTile(
             leading: Icon(Icons.monetization_on),
-            title: Text('conta2'),
+            title: Text('conta'),
             subtitle: Text('number2'),
           ),
         ),
