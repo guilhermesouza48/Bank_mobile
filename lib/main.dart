@@ -22,36 +22,28 @@ void main() => runApp(
       ),
     );
 
-// GERENCIAMENTO DE ESTADOS
+// CLASS QUE MOSTRA A LISTA
 class ListaTransf extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      // CRIAR COLUNAS DE TEXTOS
+      // CRIAR COLUNAS DE TEXTOS - CHILDREN
       children: [
-        // COLUNAS
-        ItemTransf(),
         ItemTransf(),
       ],
     );
   }
 }
 
+ // CLASS ITEM QUE ESTÁ DENTRO DA LISTA
 class ItemTransf extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Card(
+    return Card( // CRIA LINHAS DE TEXTOS
       child: ListTile(
         leading: Icon(Icons.monetization_on),
-        title: Text('Conta'),
-        subtitle: Text('number'),
-      ),
-    );
-    Card(
-      child: ListTile(
-        leading: Icon(Icons.monetization_on),
-        title: Text('conta'),
-        subtitle: Text('number2'),
+        title: Text('valor'),
+        subtitle: Text('conta'),
       ),
     );
   }
