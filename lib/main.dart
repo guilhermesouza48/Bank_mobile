@@ -15,15 +15,15 @@ void main() => runApp(
               Card(
                 child: ListTile(
                   leading: Icon(Icons.monetization_on),
-                  title: Text('Transferência'),
-                  subtitle: Text('Área de transferência de dinheiro.'),
+                  title: Text('Conta'),
+                  subtitle: Text('number'),
                 ),
               ),
               Card(
                 child: ListTile(
                   leading: Icon(Icons.monetization_on),
-                  title: Text('Transferência'),
-                  subtitle: Text('Área de transferência de dinheiro.'),
+                  title: Text('conta2'),
+                  subtitle: Text('number2'),
                 ),
               ),
             ],
