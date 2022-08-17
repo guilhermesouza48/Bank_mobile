@@ -4,14 +4,14 @@ void main() => runApp(
       MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          //Header
-          appBar: AppBar(
+          
+          appBar: AppBar( //Header
             title: Text('HOME'),
             backgroundColor: Colors.red,
           ),
           // Main
-          body: Column(
-            children: [
+          body: Column( // CRIAR COLUNAS DE TEXTOS
+            children: [ // COLUNAS
               Card(
                 child: ListTile(
                   leading: Icon(Icons.monetization_on),
@@ -28,8 +28,8 @@ void main() => runApp(
               ),
             ],
           ),
-          // button add
-          floatingActionButton: FloatingActionButton(
+          
+          floatingActionButton: FloatingActionButton( // button add
             onPressed: () {},
             child: Icon(Icons.add),
             backgroundColor: Colors.red,
@@ -37,3 +37,10 @@ void main() => runApp(
         ),
       ),
     );
+// Gerenciamento de estados
+class ListaTransf extends StatelessWidget ( 
+  @override
+  Widget build(BuildContext context) {
+    return null;
+  }
+);
